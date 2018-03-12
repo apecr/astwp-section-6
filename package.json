@@ -6,7 +6,7 @@
   "scripts": {
     "test": "python -m unittest discover -p test_*.py",
     "install": "pip install -r requirements.txt",
-    "start": "python app.py",
+    "start": "python run.py",
     "sonar": "sonar-scanner",
     "coverage": "coverage run --source . -m unittest discover && coverage xml -o coverage-reports/coverage.xml"
   },
